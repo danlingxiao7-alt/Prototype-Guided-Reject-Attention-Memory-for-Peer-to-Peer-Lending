@@ -61,13 +61,13 @@ pram train --config configs/2014-2015.json \
   --output runs/2014-2015 --device auto
 ```
 
-| Configuration | Training → test | K-means clusters | Seeds |
-| --- | --- | ---: | --- |
-| `2012-2013.json` | 2012 → 2013 | 8 | 6225, 4507, 3528, 1292, 435 |
-| `2013-2014.json` | 2013 → 2014 | 12 | 5882, 5636, 6202, 8280, 410 |
-| `2014-2015.json` | 2014 → 2015 | 13 | 4507, 2287, 9675, 4013, 3658 |
+| Configuration | Training → test | K-means clusters | 
+| --- | --- | ---:
+| `2012-2013.json` | 2012 → 2013 | 8 | 
+| `2013-2014.json` | 2013 → 2014 | 12 | 
+| `2014-2015.json` | 2014 → 2015 | 13 |
 
-All three examples set `threshold=0.2`, one of the original notebook's scanned values. **This is an example, not a verified optimal or paper-final threshold.** Set it to your intended value in the JSON before running. No threshold is chosen using test results. Other shared defaults are 20 epochs, batch size 10,000, learning rate 0.001, weight decay 0.0001, patience 3, split seed 42, and three prototypes per cluster.
+All three examples set `threshold=0.2`, one of the original notebook's scanned values. **This is an example, not a verified optimal or paper-final threshold.** Set it to your intended value in the JSON before running. No threshold is chosen using test results. Other shared defaults are 20 epochs, batch size 10,000, learning rate 0.001, weight decay 0.0001, patience 3, and three prototypes per cluster.
 
 ### Two explicit preprocessing protocols
 

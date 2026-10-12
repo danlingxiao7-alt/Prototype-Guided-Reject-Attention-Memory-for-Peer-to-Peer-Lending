@@ -1,0 +1,2 @@
+[console_scripts]
+pram = pram.cli:main

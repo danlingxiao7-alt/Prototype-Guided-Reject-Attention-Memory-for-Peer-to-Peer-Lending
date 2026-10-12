@@ -1,0 +1,14 @@
+{
+  "train_year": 2013,
+  "test_year": 2014,
+  "threshold": 0.2,
+  "num_clusters": 12,
+  "topk": 3,
+  "seeds": [5882, 5636, 6202, 8280, 410],
+  "preprocessing": "notebook_yearwise",
+  "epochs": 20,
+  "batch_size": 10000,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "patience": 3
+}

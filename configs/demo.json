@@ -1,0 +1,12 @@
+{
+  "train_year": 2014,
+  "test_year": 2015,
+  "threshold": 0.2,
+  "num_clusters": 3,
+  "topk": 3,
+  "seeds": [42],
+  "preprocessing": "train_only",
+  "epochs": 2,
+  "batch_size": 64,
+  "patience": 2
+}

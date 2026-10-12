@@ -1,0 +1,9 @@
+numpy<3,>=1.24
+pandas<4,>=2.0
+scikit-learn<2,>=1.3
+torch<3,>=2.2
+entmax<2,>=1.3
+
+[dev]
+pytest<10,>=8
+build<2,>=1

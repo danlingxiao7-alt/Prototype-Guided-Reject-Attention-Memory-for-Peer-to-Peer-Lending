@@ -4,7 +4,7 @@
   "threshold": 0.2,
   "num_clusters": 13,
   "topk": 3,
-  "seeds": [4507, 2287, 9675, 4013, 3658],
+  "seeds": ,
   "preprocessing": "notebook_yearwise",
   "epochs": 20,
   "batch_size": 10000,

@@ -4,8 +4,6 @@
 
 An installable Python package extracted from the **main K-means prediction pipeline** in `Test_20epoh_Kmeans.ipynb`. Rejected applicants supply an unlabeled memory bank; they are not assigned training labels. This repository contains no ablation runs, parameter sweeps, or hard-coded result plots.
 
-**Scope:** this is a refactoring of the supplied notebook, not a claim of exact reproduction of any published table. The original training data and trained weights are not distributed. See [reproducibility notes](docs/REPRODUCIBILITY.md) for preserved behavior and explicit differences.
-
 ## Method
 
 1. Clean accepted and rejected applications into four shared features.
